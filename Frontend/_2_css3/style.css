@@ -4,6 +4,19 @@
      box-sizing: border-box;  /*Burada margin haricinde genişliğini width değerine göre ayarlar. */
 }
 
+:root{
+    --template_bg_color: black;
+    --template_color: white;
+}
+
+header{
+    background-image: url('../image/th-3816755830.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}
+
 p{
     color: blue;
     color:#123;
@@ -93,4 +106,9 @@ ul{
     background-color: blue;
     color:white;
     padding: .5rem 1rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
