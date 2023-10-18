@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-     box-sizing: border-box;  /*Burada margin haricinde genişliğini width değerine göre ayarlar. */
+    box-sizing: border-box;  /*Burada margin haricinde genişliğini width değerine göre ayarlar. */
 }
 
 :root{
