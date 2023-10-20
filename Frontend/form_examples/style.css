@@ -1,7 +1,7 @@
 /*
 project name    : Register
-project author  : Hamit Mızrak
-project date    : 18/10/2023
+project author  : Cihan Demir
+project date    : 20/10/2023
 project version : v1.0.0
 */
 
@@ -133,7 +133,7 @@ ul {
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus{
-    background-color: var(--template_color);
+    background-color: var(--template_color); 
     color:transparent;
 }
 
