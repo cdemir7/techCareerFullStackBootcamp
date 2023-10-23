@@ -66,10 +66,10 @@
 // console.log(userData);
 
 //Infinity
-console.log(4/0);
+console.log(4 / 0);
 
 //NaN
-console.log(4/"asd");
+console.log(4 / "asd");
 
 //Undefined
 let data;
@@ -77,25 +77,25 @@ console.log(data);
 
 //////////////////////////////////////////////////////////////////////////////////
 // Cast
-console.log(4+4);
-console.log(4+ Number("4"));
-console.log(4+ parseInt("4"));
-console.log(4+ String(4));
+console.log(4 + 4);
+console.log(4 + Number("4"));
+console.log(4 + parseInt("4"));
+console.log(4 + String(4));
 
 // Math
-console.log(Math.min(2,1,-500,6,900));
-console.log(Math.max(2,1,-500,6,900));
+console.log(Math.min(2, 1, -500, 6, 900));
+console.log(Math.max(2, 1, -500, 6, 900));
 console.log(Math.abs(-500));
 console.log(Math.sqrt(16));
-console.log(Math.pow(2,5));
+console.log(Math.pow(2, 5));
 
 console.log(Math.floor(2.9));
 console.log(Math.ceil(2.1));
 console.log(Math.round(5.4));
 console.log(Math.round(5.5));
 
-console.log((Math.random()*9+1).toFixed(3));
-console.log(Math.floor((Math.random()*9+1).toFixed(3)) );
+console.log((Math.random() * 9 + 1).toFixed(3));
+console.log(Math.floor((Math.random() * 9 + 1).toFixed(3)));
 
 console.log(Math.sin(-1));
 
@@ -131,62 +131,139 @@ console.log(Math.sin(-1));
 
 ///////////////////////////////////////////////////////////////// 
 // Function 
-function normFunction(){
-    console.log("Norm Funciton");
-}
-normFunction();
+// function normFunction() {
+//     console.log("Norm Funciton");
+// }
+// normFunction();
 
-// Anonymous
-let anonymousFunction=function(){
-    console.log("Anonymous Funciton");
-}
-anonymousFunction();
+// // Anonymous
+// let anonymousFunction = function () {
+//     console.log("Anonymous Funciton");
+// }
+// anonymousFunction();
 
-// Arrow
-const arrowFunciton= () =>{
-    console.log("Arrow Funciton");
-}
-arrowFunciton();
+// // Arrow
+// const arrowFunciton = () => {
+//     console.log("Arrow Funciton");
+// }
+// arrowFunciton();
 
-// Immedia Function
-(function(){
-    console.log("Immedia Anonymous Function");
-})()
+// // Immedia Function
+// (function () {
+//     console.log("Immedia Anonymous Function");
+// })()
 
-(()=>{
-    console.log("Immedia Arrow Function");
-})()
+//     (() => {
+//         console.log("Immedia Arrow Function");
+//     })()
 
 //////////////////////////////////////////////////////////////////
 // Conditional
 
+// if else
+let conditional = () => {
+    let number = 5;
+    if (number > 0) {
+        console.log("pozitif");
+    } else {
+        console.log("negatif");
+    }
+}
+conditional();
+
+// ternary
+let ternary= () => {
+    let number = 5;
+    let result = (number > 0) ?  "Pozitif":"Negatif" ;
+    console.log(result);
+}
+ternary();
+
+// if elseif else
+let conditional2 = () => {
+    let number = 0;
+    if (number > 0) {
+        console.log("pozitif");
+    } else if (number === Number("0")) {
+        console.log("Sıfır");
+    } else {
+        console.log("negatif");
+    }
+}
+conditional2();
+
+// if elseif else
+let conditional3 = () => {
+    let number = 5;
+    if (number === 1) {
+        console.log("sayı 1");
+    } else if (number === 2) {
+        console.log("sayı 2");
+    } else if (number === 3) {
+        console.log("sayı 3");
+    } else if (number === 4) {
+        console.log("sayı 4");
+    } else if (number === 5) {
+        console.log("sayı 5");
+    } else {
+        console.log("1<=X<=5 dışında bir sayıdır");
+    }
+}
+conditional3();
+
+// switch case
+let conditional4 = () => {
+    let number = 5;
+
+    switch (number) {
+        case 1:
+            console.log("sayı 1");
+            break;
+        case 2:
+            console.log("sayı 2");
+            break;
+        case 3:
+            console.log("sayı 3");
+            break;
+        case 4:
+            console.log("sayı 4");
+            break;
+        case 5:
+            console.log("sayı 5");
+            break;
+        default:
+            console.log("1<=X<=5 dışında bir sayıdır");
+            break;
+    }
+}
+conditional4();
 
 
 //////////////////////////////////////////////////////////////////
-// Loop 
+// Loop
 
 
 
 
 //////////////////////////////////////////////////////////////////
-// Dizi 
+// Dizi
 
 
 
 
 
 //////////////////////////////////////////////////////////////////
-// Object 
+// Object
 
 
 //////////////////////////////////////////////////////////////////
-// Event 
+// Event
 // LocalStorage
 // setInterval(()=>{},2000) setTimeOut(()=>{},3000)
 
 
 //////////////////////////////////////////////////////////////////
-// DOM 
+// DOM
 // Listeners
 ////////////////////////////////////////////////////////////////////
 // Form input Handling && jQuery
