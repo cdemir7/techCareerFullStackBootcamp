@@ -293,15 +293,96 @@ loop3()
 // while(true){}
 document.writeln("<br/>------------"); 
 
+////////////////////////////////////////////////////////////////////// 
+const str=()=>{
+    let value="js ÖĞReniyorum js ";
+    console.log(value);
+    console.log(value.length);
+    console.log(value.trim().length);
+
+    console.log(value.toLowerCase());
+    console.log(value.toUpperCase());
+
+    console.log(value.concat("INC"));
+
+    console.log(value.indexOf("js"));
+    console.log(value.lastIndexOf("js"));
+
+    console.log(value.charAt(1));
+
+    console.log(value.substring(3));
+    console.log(value.substring(0,3));
+
+    console.log(value.replace(value,"yeni değer"));
+
+    console.log(value.startsWith("j"));
+    console.log(value.endsWith(" "));
+}
+//str()
+
 //////////////////////////////////////////////////////////////////
 // Dizi
 
+// Dizi
+let array1 = () => {
+    let data = [4, 5, 1, 3, 6, 7, 2, 8];
+    data[8] = 9;
+    console.log(data);
+    console.log(data[0]);
+    console.log(data[8 - 1]);
+    console.log(data[data.length - 1]);
 
+    // Iterative For
+    for (let i = 0; i < data.length; i++) {
+        document.writeln(data[i]);
+    }
+
+    document.writeln("<br/>------------<br/>");
+    // for Of
+    data.push(44);
+    data.unshift(23);
+    data.pop();
+    data.shift();
+    for (let temp of data) {
+        document.writeln(temp);
+    }
+
+    //data.sort();
+    //data.reverse();
+    data.sort().reverse();
+    document.writeln("<br/>------------<br/>");
+    for (let temp in data) {
+        // document.writeln(temp+" => "+data[temp]+"<br/>");
+        document.writeln(`${temp} => ${data[temp]} <br/>`);
+    }
+
+    document.writeln("<br/>------------<br/>");
+     let result1= data.toString();
+     document.writeln(result1.concat(" 999"));
+
+     document.writeln("<br/>------------<br/>");
+     let data2=[1,2,3,4,5,6,7,8,9]
+     let result2= data2.splice(5,3);
+     document.writeln(result2)
+
+}
+array1()
+// iterative for
+// forin
+// forof
+// forEach
+
+// map
+// filter
+// fill
 
 
 
 //////////////////////////////////////////////////////////////////
+// try-catach
+
 // Object
+
 
 
 //////////////////////////////////////////////////////////////////
