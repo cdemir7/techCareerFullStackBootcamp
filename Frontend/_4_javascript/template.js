@@ -102,38 +102,60 @@ console.log(Math.sin(-1));
 ///////////////////////////////////////////////////////////////// 
 // Function 
 // 1
-function returnsuzParametresiz(){
-    console.log("returnsuz Parametresiz");
-}
-returnsuzParametresiz();
+// function returnsuzParametresiz(){
+//     console.log("returnsuz Parametresiz");
+// }
+// returnsuzParametresiz();
 
-// 2
-function returnsuzParametreli(uname){
-    console.log("returnsuz Parametreli "+uname);
-}
-returnsuzParametreli("Hamit.")
-
-
-// 3
-function returnluParametresiz(){
-   return "returnlu Parametresiz";
-}
-const data3= returnluParametresiz();
-console.log(data3);
+// // 2
+// function returnsuzParametreli(uname){
+//     console.log("returnsuz Parametreli "+uname);
+// }
+// returnsuzParametreli("Hamit.")
 
 
-// 4
-function returnluParametreli(uname,usurname){
-    return "returnlu Parametreli "+uname+usurname;
- }
- const data4= returnluParametreli("Hamit", "Mızrak");
- console.log(data4);
+// // 3
+// function returnluParametresiz(){
+//    return "returnlu Parametresiz";
+// }
+// const data3= returnluParametresiz();
+// console.log(data3);
+
+
+// // 4
+// function returnluParametreli(uname,usurname){
+//     return "returnlu Parametreli "+uname+usurname;
+//  }
+//  const data4= returnluParametreli("Hamit", "Mızrak");
+//  console.log(data4);
 
 ///////////////////////////////////////////////////////////////// 
 // Function 
+function normFunction(){
+    console.log("Norm Funciton");
+}
+normFunction();
+
 // Anonymous
+let anonymousFunction=function(){
+    console.log("Anonymous Funciton");
+}
+anonymousFunction();
+
 // Arrow
+const arrowFunciton= () =>{
+    console.log("Arrow Funciton");
+}
+arrowFunciton();
+
 // Immedia Function
+(function(){
+    console.log("Immedia Anonymous Function");
+})()
+
+(()=>{
+    console.log("Immedia Arrow Function");
+})()
 
 //////////////////////////////////////////////////////////////////
 // Conditional
@@ -160,6 +182,7 @@ function returnluParametreli(uname,usurname){
 //////////////////////////////////////////////////////////////////
 // Event 
 // LocalStorage
+// setInterval(()=>{},2000) setTimeOut(()=>{},3000)
 
 
 //////////////////////////////////////////////////////////////////
