@@ -6,7 +6,7 @@
 // console.warn("console");
 // console.info("console");
 
-// window.alert("deneme37");
+// window.alert("deneme37"); //window en üst objedir.
 // alert("deneme37");
 
 
@@ -35,7 +35,7 @@
 // var data = 3 > 1;
 // console.log(typeof data);
 
-// // hoisting
+// // Maven ise daha geleneksel bir yapıya sahiptir ve derleme sürecinde bazı performans kısıtlamaları bulunabilir. Maven, her derleme adımında tüm bağımlılıkları kontrol eder ve bu da zaman alabilir.
 // data = 56566;
 // var data;
 // console.log(data);
